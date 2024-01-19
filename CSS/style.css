@@ -18,7 +18,6 @@ body {
 }
 section {
 	align-items: center;
-	min-height: 70vh;
 }
 .promo1 img {
 	object-fit: cover;
@@ -50,40 +49,12 @@ section {
   .show {
 	opacity: 1;
   }
-  .SeeB {
-	background-color: rgba(138, 137, 137, 0.74);
-	-webkit-backdrop-filter: saturate(180%) blur(20px);
-	backdrop-filter: saturate(180%) blur(20px);
-	position: absolute;
-	text-decoration: none;
-	border-radius: 30px;
-	text-align: center;
-	bottom: 82%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-	font-size: 24px;
-	transition: .3s ease;
-	box-shadow: 0px 0px 16px rgb(0 0 0 / 30%);
-}
- .SeeB:hover {
-	box-shadow: 0px 0px 16px rgba(255, 255, 255, 0.497);
-	background-color: rgba(24, 23, 23, 0.815);
-	
-}  
-.quotes {
-	padding-top: 30vh;
-}
 
-.shopNow {
-	color: rgb(22, 22, 22);
-	font-size: 22px;
-	margin: 16px 60px;
- } 
 
 .promovideo {
 	width: 100%;
 }
+/* best seller */
 .SideToSideR {
 	display: flex;
 	flex-wrap: wrap;
@@ -102,7 +73,7 @@ section {
 	padding: 10px 15px;
 }
 
-/* test */
+/* section 1 quotes */
 
  .Qac h1, h2 {
     margin: 0;
@@ -130,7 +101,7 @@ section {
 	padding-top: 30vh;
 
   }
-  .centered-section {
+  .centered-section-quotM {
 	background-image: url(/img/milad-fakurian-7wUorDiCMSU-unsplash.jpg);
 	background-size: cover;
 	text-align: center;
@@ -143,3 +114,41 @@ section {
 	background-color: rgba(165, 163, 163, 0.74);
 	
 } 
+
+
+/* 3eme section sony casque */
+
+
+.centered-section-sony {
+    height: 70vh;
+    background-image: url(/img/casque_sony_promoA.jpg);
+    background-size: cover;
+    text-align: center;
+    position: relative; /* Add this */
+}
+
+.shopS-button {
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 10%;
+    background-color: rgba(89, 72, 21, 0.639);
+    font-size: 1.5rem;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    border-radius: 30px;
+    transition: .3s ease;
+    box-shadow: 0px 0px 16px rgb(0 0 0 / 66%);
+    border: none;
+
+    position: absolute; /* Add this */
+    bottom: 10px; /* Adjust the value as needed to position it at the bottom */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+}
+
+.shopS-button:hover {
+    box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 62%);
+    background-color: rgba(165, 163, 163, 0.74);
+}
