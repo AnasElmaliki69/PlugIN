@@ -108,6 +108,7 @@ section {
 }
 .SideToSideR {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 }
 .bestSeller {
