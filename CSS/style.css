@@ -18,6 +18,7 @@ body {
 }
 section {
 	align-items: center;
+	min-height: 70vh;
 }
 .promo1 img {
 	object-fit: cover;
@@ -39,7 +40,7 @@ section {
 	text-align: center;
 }
   .quote1 h1 {
-	font-size: 70px;
+	font-size: 1.5em;
   }
   .hidden {
 	opacity: 0;
@@ -54,30 +55,13 @@ section {
 .promovideo {
 	width: 100%;
 }
-/* best seller */
-.SideToSideR {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-.bestSeller {
-	padding-top: 100px;
-	
-	text-align: center;
-	font-size: 64px;
-}
-.SideToSideR img {
-	width: 400px;
-	height: 500px;
-	margin: 30px;
-	padding: 10px 15px;
-}
+
 
 /* section 1 quotes */
 
  .Qac h1, h2 {
     margin: 0;
-    padding: 10px 0;
+    padding: 10px 0; 
 	
 	
   }
@@ -85,7 +69,7 @@ section {
   .shop-button {
     margin: 20px 0;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 1.5em;
 	cursor: pointer;
 	width: 10%;
 	background-color: rgba(165, 163, 163, 0.74);
@@ -120,7 +104,7 @@ section {
 
 
 .centered-section-sony {
-    height: 70vh;
+    min-height: 70vh;
     background-image: url(/img/casque_sony_promoA.jpg);
     background-size: cover;
     text-align: center;
@@ -130,11 +114,11 @@ section {
 .shopS-button {
     margin: 20px 0;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 1.5em;
     cursor: pointer;
     width: 10%;
     background-color: rgba(89, 72, 21, 0.639);
-    font-size: 1.5rem;
+    font-size: 1.5em;
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
     border-radius: 30px;
@@ -151,4 +135,26 @@ section {
 .shopS-button:hover {
     box-shadow: 0px 0px 6px 0px rgb(0 0 0 / 62%);
     background-color: rgba(165, 163, 163, 0.74);
+}
+
+
+/* best seller section */
+.SideToSideR {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.bestSeller {
+	padding-top: 100px;
+	
+	text-align: center;
+	font-size: 1.5em;
+}
+.SideToSideR img {
+	width: 100%;
+
+}
+.cartHome {
+	width: 23.3%;
+	margin: 6%;
 }
