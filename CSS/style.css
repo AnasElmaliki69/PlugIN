@@ -146,15 +146,30 @@ section {
 }
 .bestSeller {
 	padding-top: 100px;
-	
 	text-align: center;
 	font-size: 1.5em;
 }
 .SideToSideR img {
 	width: 100%;
+	height: 90%;
+	object-fit: cover;
 
 }
 .cartHome {
-	width: 23.3%;
-	margin: 6%;
+	width: 22%;
+	margin: 10px;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	transition: transform 0.5s ease-in-out;
+ }
+ 
+ .cartHome:hover {
+	transform: scale(1.1);
+	z-index: 1;
+ }
+.bestsellerLinks {
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: black;
 }
