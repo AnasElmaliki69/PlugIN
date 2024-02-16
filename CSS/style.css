@@ -139,7 +139,7 @@ section {
 
 
 /* best seller section */
-.SideToSideR {
+.bestseller-section {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -149,15 +149,15 @@ section {
 	text-align: center;
 	font-size: 1.5em;
 }
-.SideToSideR img {
+.cartHome img {
 	width: 100%;
-	height: 90%;
+	height: 500px;
 	object-fit: cover;
 
 }
 .cartHome {
-	width: 22%;
-	margin: 10px;
+	width: 20%;
+	margin: 20px;
 	text-align: center;
 	border: 1px solid #ccc;
 	border-radius: 6px;
@@ -168,8 +168,17 @@ section {
 	transform: scale(1.1);
 	z-index: 1;
  }
+ .bestsellersNom {
+	
+ }
+.bestsellersDsc {
+
+}
+
+
 .bestsellerLinks {
 	font-size: 1.5rem;
+	margin: 6px;
 	text-decoration: none;
 	color: black;
 }
